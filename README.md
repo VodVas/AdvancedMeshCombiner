@@ -73,7 +73,7 @@ void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rota
     }
 }
 ```   
-📈 Performance Benchmarks  
+**📈 Performance Benchmarks**  
 *Mesh Combining*   
 500,000 vertices:  
 � Traditional: 4200ms → ⚡ Our Solution: 680ms (6.2x faster)  
@@ -117,9 +117,10 @@ Matrix math optimized via SIMD
 
 Zero-Copy Data Pipelines
 
-csharp
+```csharp
 NativeArray<float3> inputVertices = new NativeArray<float3>(length, Allocator.TempJob);
 NativeArray<float3> outputVertices = new NativeArray<float3>(length, Allocator.TempJob);
+```
 100% managed memory safety
 
 Automatic memory reaping
@@ -138,7 +139,7 @@ Full Undo/Redo support
 
 Collider hierarchy preservation
 
-**🚀 Quick Start**
+**🚀 Quick Start**  
 Add to your Unity project:  
 1. Open **Window → Package Manager**
 2. Click **+ → Add package from Git URL**
