@@ -36,18 +36,19 @@ Vertex Transforms	400MB for 1M verts	64MB Burst buffers	84% less memory
 Test
 ```  
 
-📊 System Scalability Metrics
-🧩 Component Performance
+**📊 System Scalability Metrics**  
+🏗️ Component Performance Breakdown
 *Mesh Chunker:*  
-Big-O Complexity: O(n log n)  
-Max Capacity: 1,000,000+ objects  
-Processing Speed: 2ms per 10k objects  
-Perfect for massive scene optimization  
-*Collider Processor:*   
-Big-O Complexity: O(1) per type  
-Max Capacity: Unlimited collider types  
-Processing Speed: 0.1ms per new type  
-Effortlessly handles custom colliders  
+Algorithm: O(n log n)  
+Capacity: 1,000,000+ objects  
+Speed: 2ms per 10k objects  
+Perfect for large open worlds and complex scenes  
+*Collider Processor:*  
+Algorithm: O(1) per type  
+Capacity: Unlimited custom types  
+Speed: 0.1ms per new collider type  
+Ideal for projects with specialized colliders  
+
 **🛠️ Technical Superpowers**  
 *🧮 Mathematical Optimization*  
 
