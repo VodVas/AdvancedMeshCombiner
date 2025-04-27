@@ -51,7 +51,7 @@ Effortlessly handles custom colliders
 **🛠️ Technical Superpowers**
 *🧮 Mathematical Optimization*  
 
-...
+...  
 // Optimized capsule generation using spherical coordinates
 void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rotation, 
     bool isTop, List<Vector3> vertices, List<int> triangles)
