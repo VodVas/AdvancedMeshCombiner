@@ -3,7 +3,7 @@
 <a href="https://github.com/VodVas/AdvancedMeshCombiner/blob/main/LICENSE"><img src="https://img.shields.io/github/license/VodVas/AdvancedMeshCombiner" alt="License"></a>
   
 # 🔥 Turbocharged Performance Architecture
-# ⚡ Burst-Powered Vertex Processing
+**⚡ Burst-Powered Vertex Processing**
 ```csharp
 [BurstCompile]
 private struct TransformVerticesJob : IJobParallelFor
@@ -20,40 +20,27 @@ private struct TransformVerticesJob : IJobParallelFor
     }
 }
 ```  
-65,535 vertices processed in 0.8ms (tested on Ryzen 9 5950X)
+**65,535 vertices processed in 0.8ms (tested on Ryzen 9 5950X)**
 
-Zero GC allocations with NativeArray + JobSystem
+**Zero GC allocations with NativeArray + JobSystem**
 
-8x faster than traditional Matrix4x4 transforms
+**8x faster than traditional Matrix4x4 transforms**
 
-🧠 Smart Memory Management
+**🧠 Smart Memory Management**
 Feature	Traditional Approach	Our Solution	Improvement
 Collider Cache	1.2MB per collider	32KB shared cache	97% memory reduction
 Vertex Transforms	400MB for 1M verts	64MB Burst buffers	84% less memory
-🏗️ Enterprise-Grade Architecture
-🔗 SOLID Principles Implementation
-Diagram
-Code
-classDiagram
-    class IColliderProcessor {
-        <<interface>>
-        +CanProcess()
-        +CreateCombineInstance()
-    }
-    
-    class ColliderProcessorFactory {
-        +GetProcessorFor()
-    }
-    
-    IColliderProcessor <|.. BoxColliderProcessor
-    IColliderProcessor <|.. CapsuleColliderProcessor
-    IColliderProcessor <|.. MeshColliderProcessor
-    ColliderProcessorFactory --> IColliderProcessor
-📊 System Scalability Metrics
+**🏗️ Enterprise-Grade Architecture**  
+🔗 SOLID Principles Implementation  
+```
+Test
+```  
+
+**📊 System Scalability Metrics**
 Component	Scalability Factor	Max Objects	Performance Impact
 Mesh Chunker	O(n log n)	1M+ objects	2ms per 10k objects
 Collider Processor	O(1) per type	Unlimited types	0.1ms per new type
-🛠️ Technical Superpowers
+**🛠️ Technical Superpowers**
 🧮 Mathematical Optimization
 csharp
 // Optimized capsule generation using spherical coordinates
@@ -75,12 +62,12 @@ void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rota
         // ...
     }
 }
-📈 Performance Benchmarks
+**📈 Performance Benchmarks**
 Operation	Vertex Count	Traditional (ms)	Our Solution (ms)	Gain
 Mesh Combine	500,000	4200	680	6.2x
 Collider Bake	1000 colliders	850	120	7.1x
 Transform Apply	1M vertices	95	8	11.9x
-� Collider Fusion Technology
+**� Collider Fusion Technology**
 🔄 Primitive Collider Conversion Matrix
 Collider Type	Vertex Reduction	Physics Accuracy	Memory Saved
 Box → Mesh	8 → 8 (1:1)	100%	0%
@@ -94,7 +81,7 @@ public enum DetailLevel
     Medium = 12,// 1152 triangles 
     High = 16   // 2048 triangles
 }
-🏆 Why Developers Love This System
+**🏆 Why Developers Love This System**
 💡 Key Innovation Points
 Burst-Critical Workflows
 
@@ -125,7 +112,7 @@ Full Undo/Redo support
 
 Collider hierarchy preservation
 
-📦 Installation & Quick Start
+**📦 Installation & Quick Start**
 bash
 # Install via Unity Package Manager
 https://github.com/VodVas/AdvancedMeshCombiner.git
@@ -138,7 +125,7 @@ var settings = new MeshCombineSettings(
 );
 
 var result = MeshCombineProcessor.CombineMeshes(settings);
-🌟 Ultimate Performance Showcase
+**🌟 Ultimate Performance Showcase**
 � Stress Test Results
 Scenario	Vertex Count	Collider Count	Processing Time
 City Scene	8.4M	12,500	4.2s
