@@ -4,7 +4,7 @@
   
 # 🔥 Turbocharged Performance Architecture
 # ⚡ Burst-Powered Vertex Processing
-csharp
+```csharp
 [BurstCompile]
 private struct TransformVerticesJob : IJobParallelFor
 {
@@ -19,6 +19,7 @@ private struct TransformVerticesJob : IJobParallelFor
         OutputVertices[index] = transformedVertex.xyz;
     }
 }
+```  
 65,535 vertices processed in 0.8ms (tested on Ryzen 9 5950X)
 
 Zero GC allocations with NativeArray + JobSystem
