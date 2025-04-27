@@ -1,10 +1,9 @@
 # 🚀 Advanced Mesh Combiner - Ultimate Optimization Toolkit for Unity
 <a href="https://unity.com/"><img src="https://img.shields.io/badge/Unity-2020.1+-black.svg?style=flat&logo=unity" alt="Unity Version"></a>
 <a href="https://github.com/VodVas/AdvancedMeshCombiner/blob/main/LICENSE"><img src="https://img.shields.io/github/license/VodVas/AdvancedMeshCombiner" alt="License"></a>
-<a href="https://github.com/VodVas/AdvancedMeshCombiner/releases"><img src="https://img.shields.io/github/v/release/VodVas/AdvancedMeshCombiner?include_prereleases" alt="1.0.0"></a>  
-
-🔥 Turbocharged Performance Architecture
-⚡ Burst-Powered Vertex Processing
+  
+# 🔥 Turbocharged Performance Architecture
+# ⚡ Burst-Powered Vertex Processing
 csharp
 [BurstCompile]
 private struct TransformVerticesJob : IJobParallelFor
