@@ -94,19 +94,40 @@ void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rota
 ⚡ = Our optimized solution  
 
 **� Collider Fusion Technology**
-🔄 Primitive Collider Conversion Matrix
-Collider Type	Vertex Reduction	Physics Accuracy	Memory Saved
-Box → Mesh	8 → 8 (1:1)	100%	0%
-Sphere → Mesh	768 → 162	99.2%	78.9%
-Capsule → Mesh	512 → 256	98.5%	50%
-📐 Detail Level Optimization
-csharp
+*⚙️ Primitive Collider Optimization:*
+Box Colliders
+
+Vertex Reduction: 8 → 8 (1:1 ratio)
+
+Physics Accuracy: 100% preserved
+
+Memory Saved: 0% (already optimal)
+
+Sphere Colliders
+
+Vertex Reduction: 768 → 162 vertices
+
+Physics Accuracy: 99.2%
+
+Memory Saved: 78.9%
+
+Capsule Colliders
+
+Vertex Reduction: 512 → 256 vertices
+
+Physics Accuracy: 98.5%
+
+Memory Saved: 50%
+
+🎚️ Detail Level Optimization
+```csharp
 public enum DetailLevel
 {
-    Low = 8,    // 512 triangles
-    Medium = 12,// 1152 triangles 
-    High = 16   // 2048 triangles
+    Low = 8,    // 512 triangles (mobile/VR)
+    Medium = 12, // 1152 triangles (standard)
+    High = 16   // 2048 triangles (cinematic)
 }
+```  
 **🏆 Why Developers Love This System**
 *💡 Key Innovation Points*  
 Burst-Critical Workflows
