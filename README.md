@@ -36,10 +36,18 @@ Vertex Transforms	400MB for 1M verts	64MB Burst buffers	84% less memory
 Test
 ```  
 
-**📊 System Scalability Metrics**
-Component	Scalability Factor	Max Objects	Performance Impact
-Mesh Chunker	O(n log n)	1M+ objects	2ms per 10k objects
-Collider Processor	O(1) per type	Unlimited types	0.1ms per new type
+📊 System Scalability Metrics
+🧩 Component Performance
+*Mesh Chunker:*  
+Big-O Complexity: O(n log n)  
+Max Capacity: 1,000,000+ objects  
+Processing Speed: 2ms per 10k objects  
+Perfect for massive scene optimization  
+*Collider Processor:*   
+Big-O Complexity: O(1) per type  
+Max Capacity: Unlimited collider types  
+Processing Speed: 0.1ms per new type  
+Effortlessly handles custom colliders  
 **🛠️ Technical Superpowers**
 *🧮 Mathematical Optimization*  
 ...
@@ -64,17 +72,17 @@ void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rota
 }
 ...
 📈 Performance Benchmarks  
-Mesh Combining   
+*Mesh Combining*   
 500,000 vertices:  
 � Traditional: 4200ms → ⚡ Our Solution: 680ms (6.2x faster)  
-Collider Processing  
+*Collider Processing*  
 1000 colliders:  
 🐢 Traditional: 850ms → ⚡ Our Solution: 120ms (7.1x faster)  
-Vertex Transforms  
+*Vertex Transforms*  
 1,000,000 vertices:  
 🐌 Traditional: 95ms → ⚡ Our Solution: 8ms (11.9x faster)  
   
-Performance Key:  
+*Performance Key:*  
 🐌 = Slow baseline
 
 🐢 = Moderate performance
