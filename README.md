@@ -26,7 +26,7 @@ private struct TransformVerticesJob : IJobParallelFor
 
 **8x faster than traditional Matrix4x4 transforms**
 
-**🧠 Smart Memory Management**
+**🧠 Smart Memory Management**  
 Feature	Traditional Approach	Our Solution	Improvement
 Collider Cache	1.2MB per collider	32KB shared cache	97% memory reduction
 Vertex Transforms	400MB for 1M verts	64MB Burst buffers	84% less memory
