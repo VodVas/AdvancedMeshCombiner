@@ -48,7 +48,7 @@ Big-O Complexity: O(1) per type
 Max Capacity: Unlimited collider types  
 Processing Speed: 0.1ms per new type  
 Effortlessly handles custom colliders  
-**🛠️ Technical Superpowers**
+**🛠️ Technical Superpowers**  
 *🧮 Mathematical Optimization*  
 
 ```csharp  
