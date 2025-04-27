@@ -50,6 +50,7 @@ Processing Speed: 0.1ms per new type
 Effortlessly handles custom colliders  
 **🛠️ Technical Superpowers**
 *🧮 Mathematical Optimization*  
+
 ...
 // Optimized capsule generation using spherical coordinates
 void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rotation, 
