@@ -1,0 +1,15 @@
+{
+  "name": "com.vodvas.advancedmeshcombiner",
+  "version": "1.0.0",
+  "displayName": "Advanced Mesh Combiner",
+  "description": "Lightweight mesh combiner",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.burst": "1.9.1",
+    "com.unity.mathematics": "1.2.6"
+  },
+  "author": {
+    "name": "VodVas",
+    "email": "vod.vas2022@gmail.com"
+  }
+}

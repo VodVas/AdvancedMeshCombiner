@@ -1,0 +1,6 @@
+{
+  "name": "VodVas.AdvancedMeshCombiner.Editor",
+  "references": ["VodVas.AdvancedMeshCombiner.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": false
+}
