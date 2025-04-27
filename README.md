@@ -42,7 +42,7 @@ Mesh Chunker	O(n log n)	1M+ objects	2ms per 10k objects
 Collider Processor	O(1) per type	Unlimited types	0.1ms per new type
 **🛠️ Technical Superpowers**
 *🧮 Mathematical Optimization*  
-csharp
+...
 // Optimized capsule generation using spherical coordinates
 void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rotation, 
     bool isTop, List<Vector3> vertices, List<int> triangles)
@@ -62,7 +62,7 @@ void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rota
         //
     }
 }
- ...  
+...
 📈 Performance Benchmarks  
 Mesh Combining   
 500,000 vertices:  
@@ -74,7 +74,7 @@ Vertex Transforms
 1,000,000 vertices:  
 🐌 Traditional: 95ms → ⚡ Our Solution: 8ms (11.9x faster)  
   
-Performance Key :
+Performance Key:  
 🐌 = Slow baseline
 
 🐢 = Moderate performance
