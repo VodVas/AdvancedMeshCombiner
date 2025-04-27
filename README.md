@@ -62,11 +62,26 @@ void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rota
         // ...
     }
 }
-**📈 Performance Benchmarks**
-Operation	Vertex Count	Traditional (ms)	Our Solution (ms)	Gain
-Mesh Combine	500,000	4200	680	6.2x
-Collider Bake	1000 colliders	850	120	7.1x
-Transform Apply	1M vertices	95	8	11.9x
+📈 Performance Benchmarks
+Mesh Combining 
+500,000 vertices
+� Traditional: 4200ms → ⚡ Our Solution: 680ms (6.2x faster)  
+Collider Processing  
+1000 colliders  
+🐢 Traditional: 850ms → ⚡ Our Solution: 120ms (7.1x faster)  
+Vertex Transforms  
+1,000,000 vertices  
+🐌 Traditional: 95ms → ⚡ Our Solution: 8ms (11.9x faster)  
+  
+Performance Key :
+🐌 = Slow baseline
+
+🐢 = Moderate performance
+
+🐐 = Good performance
+
+⚡ = Our optimized solution  
+
 **� Collider Fusion Technology**
 🔄 Primitive Collider Conversion Matrix
 Collider Type	Vertex Reduction	Physics Accuracy	Memory Saved
