@@ -34,7 +34,7 @@ Vertex Transforms	400MB for 1M verts	64MB Burst buffers	84% less memory
 *🔗 SOLID Principles Implementation*    
 ```csharp
 Test
-```csharp  
+```  
 
 📊 System Scalability Metrics
 🧩 Component Performance
@@ -71,7 +71,7 @@ void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rota
         //
     }
 }
-```csharp   
+```   
 📈 Performance Benchmarks  
 *Mesh Combining*   
 500,000 vertices:  
