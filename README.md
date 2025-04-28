@@ -117,9 +117,9 @@ Collider Processor:
 -Capacity: Unlimited custom types  
 -Speed: 0.1ms per new collider type  
 (*Ideal for projects with specialized colliders*)  
-
+___
 **🛠️ Technical Superpowers**  
-*🧮 Mathematical Optimization*  
+- Mathematical Optimization:
 
 ```csharp  
 // Optimized capsule generation using spherical coordinates
