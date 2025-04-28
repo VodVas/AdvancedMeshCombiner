@@ -71,15 +71,15 @@ ___
 
 Strict SOLID Compliance:  
 
-- Single Responsibility: Each processor handles exactly one collider type  
+-Single Responsibility: Each processor handles exactly one collider type  
 
-- Open/Closed: IColliderProcessor interface allows extension without modification  
+-Open/Closed: IColliderProcessor interface allows extension without modification  
 
-- Liskov Substitution: All processors implement identical method signatures  
+-Liskov Substitution: All processors implement identical method signatures  
 
-- Interface Segregation: Lean interfaces (IMeshTransformer has only essential methods) 
+-Interface Segregation: Lean interfaces (IMeshTransformer has only essential methods) 
 
-- Dependency Injection: All services injected via constructors  
+-Dependency Injection: All services injected via constructors  
 
 * Clean Code Practices:  
 
