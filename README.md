@@ -19,11 +19,11 @@ private struct TransformVerticesJob : IJobParallelFor
     }
 }
 ```  
-**65,535 vertices processed in 0.8ms (tested on Ryzen 9 5950X)**
+* 65,535 vertices processed in 0.8ms (tested on Ryzen 9 5950X)
 
-**Zero GC allocations with NativeArray + JobSystem**
+* Zero GC allocations with NativeArray + JobSystem
 
-**8x faster than traditional Matrix4x4 transforms**
+* 8x faster than traditional Matrix4x4 transforms
 
 **🧠 Smart Memory Management**  
 Feature	Traditional Approach	Our Solution	Improvement
