@@ -24,7 +24,7 @@ private struct TransformVerticesJob : IJobParallelFor
 * Zero GC allocations with NativeArray + JobSystem
 
 * 8x faster than traditional Matrix4x4 transforms
-
+___
 **🧠 Smart Memory Management**  
 *Revolutionary Memory Optimization*  
 * Collider Cache System:  
