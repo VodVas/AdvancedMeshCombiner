@@ -218,27 +218,28 @@ undoService.RegisterCreatedObject(collidersContainer, "Original Colliders Contai
 ___
 **🚀 Quick Start**  
 Add to your Unity project:  
-1. Open **Window → Package Manager**
-2. Click **+ → Add package from Git URL**
-3. Paste:
+- 1. Open **Window → Package Manager**
+- 2. Click **+ → Add package from Git URL**
+- 3. Paste:
    ``` https://github.com/VodVas/AdvancedMeshCombiner.git ```
-4. Press **Add**  
+- 4. Press **Add**
+___
 **Extreme Scenario Benchmarks**  
-*City Scene*
-Total Vertices: 8.4 million  
-Colliders Processed: 12,500  
-Processing Time: 4.2 seconds  
-(Equivalent to a medium-sized open world city)  
-*Forest Pack* 
-Total Vertices: 22 million  
-Colliders Processed: 45,000  
-Processing Time: 9.8 seconds  
-(Dense vegetation with complex collisions)  
-*Sci-Fi Interior*  
-Total Vertices: 3.1 million  
-Colliders Processed: 8,200  
-Processing Time: 1.9 seconds  
-(Detailed spaceship/station environment)  
+- City Scene
+-Total Vertices: 8.4 million  
+-Colliders Processed: 12,500  
+-Processing Time: 4.2 seconds  
+*(Equivalent to a medium-sized open world city)*  
+- Forest Pack  
+-Total Vertices: 22 million  
+-Colliders Processed: 45,000  
+-Processing Time: 9.8 seconds  
+*(Dense vegetation with complex collisions)*  
+- Sci-Fi Interior  
+-Total Vertices: 3.1 million  
+-Colliders Processed: 8,200  
+-Processing Time: 1.9 seconds  
+*(Detailed spaceship/station environment)*  
 *🛠️ Supported Unity Versions*  
 Version	Physics Backend	Burst Support	Verified  
 2020.1	Havok	✅	Certified  
