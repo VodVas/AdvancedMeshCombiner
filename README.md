@@ -26,8 +26,8 @@ private struct TransformVerticesJob : IJobParallelFor
 * 8x faster than traditional Matrix4x4 transforms
 
 **🧠 Smart Memory Management**  
-*Revolutionary Memory Optimization*
-Collider Cache System
+*Revolutionary Memory Optimization*  
+* Collider Cache System:  
 
 Traditional: 1.2MB per collider
 
