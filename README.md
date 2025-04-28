@@ -25,6 +25,35 @@ private struct TransformVerticesJob : IJobParallelFor
 
 * 8x faster than traditional Matrix4x4 transforms
 ___
+**🧩 Chunk Splitting & WebGL Compatibility**  
+- Intelligent Mesh Chunking
+```csharp
+public enum ChunkMode
+{
+    Auto,       // Smart splitting (default)
+    ForceSplit, // Always split <65K verts
+    NoSplit     // Single mesh
+}
+```  
+- Why 65K vertices matters:
+
+-WebGL 1.0: 16-bit indices limit (65,535 max)
+
+-Old Devices: Even modern GLES2 devices benefit
+
+-Performance: Smaller chunks = better draw call batching
+
+- Modern Handling:
+
+```csharp
+mesh.indexFormat = vertexCount > 65535 
+    ? IndexFormat.UInt32 
+    : IndexFormat.UInt16;
+```
+WebGL 2.0+ supports 32-bit indices via UInt32
+
+*(Recommendation: Split chunks for universal compatibility)*
+___
 **🧠 Smart Memory Management**  
 *Revolutionary Memory Optimization*  
 * Collider Cache System:  
@@ -146,7 +175,7 @@ ___
 **📈 Performance Benchmarks**  
 * Mesh Combining  
 500,000 vertices:  
-� Traditional: 4200ms → ⚡ Our Solution: 680ms (6.2x faster)  
+🕸️ Traditional: 4200ms → ⚡ Our Solution: 680ms (6.2x faster)  
 * Collider Processing  
 1000 colliders:  
 🐢 Traditional: 850ms → ⚡ Our Solution: 120ms (7.1x faster)  
