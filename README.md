@@ -36,7 +36,7 @@ Our Solution: 32KB shared cache
 Improvement: 97% memory reduction 💾
 (Reuses primitive collider meshes across all instances)
 
-Vertex Transformations
+* Vertex Transformations
 
 Traditional: 400MB for 1M vertices
 
