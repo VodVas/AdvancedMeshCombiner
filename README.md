@@ -54,23 +54,48 @@ WebGL 2.0+ supports 32-bit indices via UInt32
 
 *(Recommendation: Split chunks for universal compatibility)*
 ___
-**🌟 Collider Optimization Strategies**
-* Collider Modes:
-* 
-Merged Mode:
+**🌟 Collider Optimization Strategies**  
+
+**Collider Modes:**  
+* Merged Mode:
 *(Code Example: CreateSharedCollider = true)* 
 -Best For: Mobile/VR platforms  
 -Physics Cost: Low (1 collider)  
 
-Split Mode:  
+* Split Mode:  
 *(Code Example: GenerateGroupedColliders())*  
 -Best For: PC/Precision scenarios  
 Physics Cost: Medium  
 
-Original Mode:  
+* Original Mode:  
 *(Code Example: PreserveIndividualColliders = true)*  
 -Best For: Debugging purposes  
--Physics Cost: High  
+-Physics Cost: High
+
+* Key Implementation:
+```csharp
+// ColliderGenerator.cs
+public void GenerateGroupedColliders(
+    GameObject parentObject,
+    Dictionary<string, List<CombineInstance>> colliderGroups,
+    Transform originalParent,
+    MeshCombineSettings settings)
+{
+    if (settings.CreateSharedCollider)
+    {
+        // Merge all colliders logic
+        GenerateSharedCollider(...);
+    }
+    else
+    {
+        // Per-type collider groups
+        foreach (var group in colliderGroups)
+        {
+            CreateColliderObject(...);
+        }
+    }
+}
+```
 ___
 **🧠 Smart Memory Management**  
 *Revolutionary Memory Optimization*  
