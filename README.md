@@ -166,34 +166,21 @@ Add to your Unity project:
 2. Click **+ → Add package from Git URL**
 3. Paste:
    ``` https://github.com/VodVas/AdvancedMeshCombiner.git ```
-4. Press **Add** 
-var result = MeshCombineProcessor.CombineMeshes(settings);
-**🌟 Ultimate Performance Showcase**  
-🔥 Extreme Scenario Benchmarks
-City Scene
-
+4. Press **Add**  
+**Extreme Scenario Benchmarks**  
+*City Scene*
 Total Vertices: 8.4 million
-
 Colliders Processed: 12,500
-
 Processing Time: 4.2 seconds
 (Equivalent to a medium-sized open world city)
-
-Forest Pack
-
+*Forest Pack*
 Total Vertices: 22 million
-
 Colliders Processed: 45,000
-
 Processing Time: 9.8 seconds
 (Dense vegetation with complex collisions)
-
-Sci-Fi Interior
-
+*Sci-Fi Interior*
 Total Vertices: 3.1 million
-
 Colliders Processed: 8,200
-
 Processing Time: 1.9 seconds
 (Detailed spaceship/station environment)
 *🛠️ Supported Unity Versions*  
