@@ -123,7 +123,7 @@ ___
 
 ```csharp  
 // Optimized capsule generation using spherical coordinates
-void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rotation, 
+private void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rotation, 
     bool isTop, List<Vector3> vertices, List<int> triangles)
 {
     const float π = Mathf.PI;
@@ -144,13 +144,13 @@ void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rota
 ```
 ___
 **📈 Performance Benchmarks**  
-*Mesh Combining*   
+* Mesh Combining  
 500,000 vertices:  
 � Traditional: 4200ms → ⚡ Our Solution: 680ms (6.2x faster)  
-*Collider Processing*  
+* Collider Processing  
 1000 colliders:  
 🐢 Traditional: 850ms → ⚡ Our Solution: 120ms (7.1x faster)  
-*Vertex Transforms*  
+* Vertex Transforms  
 1,000,000 vertices:  
 🐌 Traditional: 95ms → ⚡ Our Solution: 8ms (11.9x faster)  
   
