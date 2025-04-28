@@ -33,7 +33,7 @@ Traditional: 1.2MB per collider
 
 Our Solution: 32KB shared cache
 
-Improvement: 97% memory reduction *(Reuses primitive collider meshes across all instances)*
+Improvement: **97%** memory reduction *(Reuses primitive collider meshes across all instances)*
 
 * Vertex Transformations:
 
@@ -41,7 +41,7 @@ Traditional: 400MB for 1M vertices
 
 Our Solution: 64MB Burst buffers
 
-Improvement: 84% less memory *(NativeArray + JobSystem eliminates managed memory overhead)*
+Improvement: **84%** less memory *(NativeArray + JobSystem eliminates managed memory overhead)*
 
 Key Innovations
 ```csharp
@@ -60,11 +60,11 @@ struct TransformVerticesJob : IJobParallelFor {
 ```  
 * Performance Impact:
 
-🟢 15x fewer GC allocations
+🟢 **15x** fewer GC allocations
 
-🔵 80% reduction in peak memory usage
+🔵 **80%** reduction in peak memory usage
 
-⚡ Enables processing of 10M+ vertex scenes
+⚡ Enables processing of **10M+** vertex scenes
 ___
 **🏛️ SOLID & Clean Code Architecture**  
 * This utility exemplifies professional-grade design through:  
