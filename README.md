@@ -141,7 +141,8 @@ void GenerateHemisphere(float radius, float baseY, Vector3 axis, Quaternion rota
         //
     }
 }
-```   
+```
+___
 **📈 Performance Benchmarks**  
 *Mesh Combining*   
 500,000 vertices:  
