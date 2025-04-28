@@ -36,17 +36,17 @@ Our Solution: 32KB shared cache
 Improvement: 97% memory reduction 💾
 (Reuses primitive collider meshes across all instances)
 
-* Vertex Transformations
+* Vertex Transformations:
 
 Traditional: 400MB for 1M vertices
 
 Our Solution: 64MB Burst buffers
 
-Improvement: 84% less memory 🚀
+Improvement: 84% less memory  
 (NativeArray + JobSystem eliminates managed memory overhead)
 
 Key Innovations
-csharp
+```csharp
 // Memory-optimized collider cache
 private readonly Dictionary<Vector3, Mesh> _boxMeshCache = new();
 private readonly Dictionary<float, Mesh> _sphereMeshCache = new();
@@ -57,8 +57,9 @@ struct TransformVerticesJob : IJobParallelFor {
     [ReadOnly] public NativeArray<float3> InputVertices;
     [WriteOnly] public NativeArray<float3> OutputVertices;
     public float4x4 TransformMatrix;
-    // ...
+    //
 }
+```  
 Performance Impact:
 
 🟢 15x fewer GC allocations
