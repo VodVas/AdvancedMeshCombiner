@@ -68,7 +68,7 @@ struct TransformVerticesJob : IJobParallelFor {
 
 ⚡ Enables processing of 10M+ vertex scenes
 
-🏛️ SOLID & Clean Code Architecture  
+**🏛️ SOLID & Clean Code Architecture**  
 * This utility exemplifies professional-grade design through:  
 
 Strict SOLID Compliance:  
