@@ -172,14 +172,14 @@ Physics Accuracy: 100% preserved  |
 Memory Saved: 0% (already optimal) 
 
 * Sphere Colliders:  
-Vertex Reduction: 768 → 162 vertices
-Physics Accuracy: 99.2%
-Memory Saved: 78.9%
+Vertex Reduction: 768 → 162 vertices  |
+Physics Accuracy: **99.2%**  |
+Memory Saved: **78.9%**
 
 * Capsule Colliders:  
-Vertex Reduction: 512 → 256 vertices
-Physics Accuracy: 98.5%
-Memory Saved: 50%
+Vertex Reduction: 512 → 256 vertices  |
+Physics Accuracy: **98.5%**  |
+Memory Saved: **50%**
 ___
 🎚️ Detail Level Optimization
 ```csharp
