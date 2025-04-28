@@ -104,11 +104,11 @@ Strict SOLID Compliance:
 -LOD-aware collider generation 
 ___
 **📊 System Scalability Metrics**  
-🏗️ Component Performance Breakdown
+* Component Performance Breakdown  
 *Mesh Chunker:*  
-Algorithm: O(n log n)  
-Capacity: 1,000,000+ objects  
-Speed: 2ms per 10k objects  
+-Algorithm: O(n log n)  
+-Capacity: 1,000,000+ objects  
+-Speed: 2ms per 10k objects  
 Perfect for large open worlds and complex scenes  
 *Collider Processor:*  
 Algorithm: O(1) per type  
