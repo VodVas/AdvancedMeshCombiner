@@ -169,12 +169,33 @@ Add to your Unity project:
 4. Press **Add** 
 var result = MeshCombineProcessor.CombineMeshes(settings);
 **🌟 Ultimate Performance Showcase**  
-*� Stress Test Results*  
-| Scenario        | Vertices  | Colliders | Processing Time | Environment Type |  
-|-----------------|-----------|-----------|-----------------|------------------|  
-| City Scene      | 8.4M      | 12,500    | 4.2s            | Urban            |  
-| Forest Pack     | 22M       | 45,000    | 9.8s            | Nature           |  
-| Sci-Fi Interior | 3.1M      | 8,200     | 1.9s            | Spaceship        |  
+🔥 Extreme Scenario Benchmarks
+City Scene
+
+Total Vertices: 8.4 million
+
+Colliders Processed: 12,500
+
+Processing Time: 4.2 seconds
+(Equivalent to a medium-sized open world city)
+
+Forest Pack
+
+Total Vertices: 22 million
+
+Colliders Processed: 45,000
+
+Processing Time: 9.8 seconds
+(Dense vegetation with complex collisions)
+
+Sci-Fi Interior
+
+Total Vertices: 3.1 million
+
+Colliders Processed: 8,200
+
+Processing Time: 1.9 seconds
+(Detailed spaceship/station environment)
 *🛠️ Supported Unity Versions*  
 Version	Physics Backend	Burst Support	Verified  
 2020.1	Havok	✅	Certified  
