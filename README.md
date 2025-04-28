@@ -60,7 +60,7 @@ struct TransformVerticesJob : IJobParallelFor {
     //
 }
 ```  
-Performance Impact:
+* Performance Impact:
 
 🟢 15x fewer GC allocations
 
