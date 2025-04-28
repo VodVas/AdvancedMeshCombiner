@@ -224,7 +224,7 @@ Add to your Unity project:
    ``` https://github.com/VodVas/AdvancedMeshCombiner.git ```
 - Press **Add**
 ___
-**Extreme Scenario Benchmarks**  
+**💡Extreme Scenario Benchmarks**  
 - City Scene  
 -Total Vertices: 8.4 million  
 -Colliders Processed: 12,500  
@@ -239,7 +239,8 @@ ___
 -Total Vertices: 3.1 million  
 -Colliders Processed: 8,200  
 -Processing Time: 1.9 seconds  
-*(Detailed spaceship/station environment)*  
+*(Detailed spaceship/station environment)*
+___
 *🛠️ Supported Unity Versions*  
 Version	Physics Backend	Burst Support	Verified  
 2020.1	Havok	✅	Certified  
