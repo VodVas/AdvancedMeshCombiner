@@ -67,7 +67,7 @@ struct TransformVerticesJob : IJobParallelFor {
 🔵 80% reduction in peak memory usage
 
 ⚡ Enables processing of 10M+ vertex scenes
-
+___
 **🏛️ SOLID & Clean Code Architecture**  
 * This utility exemplifies professional-grade design through:  
 
