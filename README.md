@@ -170,10 +170,11 @@ Add to your Unity project:
 var result = MeshCombineProcessor.CombineMeshes(settings);
 **🌟 Ultimate Performance Showcase**  
 *� Stress Test Results*  
-Scenario	     Vertex count	    Collider count	     Processing Time  
-City Scene     |	8.4M          |	 12,500	                   |  4.2s  
-Forest Pack    |	22M	          |   45,000	                   |  9.8s  
-SciFi Interior |	3.1M          |   8,200	                   |  1.9s  
+| Scenario        | Vertices  | Colliders | Processing Time | Environment Type |
+|-----------------|-----------|-----------|-----------------|------------------|
+| City Scene      | 8.4M      | 12,500    | 4.2s            | Urban            |
+| Forest Pack     | 22M       | 45,000    | 9.8s            | Nature           |
+| Sci-Fi Interior | 3.1M      | 8,200     | 1.9s            | Spaceship        |
 *🛠️ Supported Unity Versions*  
 Version	Physics Backend	Burst Support	Verified  
 2020.1	Havok	✅	Certified  
