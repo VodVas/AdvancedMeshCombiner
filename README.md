@@ -167,9 +167,9 @@ ___
 
 * Primitive Collider Optimization:
 * Box Colliders:  
-Vertex Reduction: 8 → 8 (1:1 ratio)
-Physics Accuracy: 100% preserved
-Memory Saved: 0% (already optimal)
+Vertex Reduction: 8 → 8 (1:1 ratio) ||
+Physics Accuracy: 100% preserved ||
+Memory Saved: 0% (already optimal) ||
 
 * Sphere Colliders:  
 Vertex Reduction: 768 → 162 vertices
