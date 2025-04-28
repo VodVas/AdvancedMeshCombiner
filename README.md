@@ -218,14 +218,14 @@ undoService.RegisterCreatedObject(collidersContainer, "Original Colliders Contai
 ___
 **🚀 Quick Start**  
 Add to your Unity project:  
-- 1. Open **Window → Package Manager**
-- 2. Click **+ → Add package from Git URL**
-- 3. Paste:
+- Open **Window → Package Manager**
+- Click **+ → Add package from Git URL**
+- Paste:
    ``` https://github.com/VodVas/AdvancedMeshCombiner.git ```
-- 4. Press **Add**
+- Press **Add**
 ___
 **Extreme Scenario Benchmarks**  
-- City Scene
+- City Scene  
 -Total Vertices: 8.4 million  
 -Colliders Processed: 12,500  
 -Processing Time: 4.2 seconds  
