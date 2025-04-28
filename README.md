@@ -191,8 +191,7 @@ public enum DetailLevel
 }
 ```
 ___
-**🏆 Why Developers Love This System**  
-* 💡 Key Innovation Points   
+**🏆 Why Developers Love This System**   
 - Burst-Critical Workflows
 - Vertex transforms at 1.8 cycles/vertex
 - Matrix math optimized via SIMD
@@ -208,18 +207,14 @@ NativeArray<float3> outputVertices = new NativeArray<float3>(length, Allocator.T
 
 - Collider LOD System
 
-- Auto-select detail level based on:
-
-math
-LOD_{level} = \frac{ScreenHeight}{2^{level}} 
 - Non-Destructive Workflow
 
 ```csharp
 undoService.RegisterCreatedObject(collidersContainer, "Original Colliders Container");
 ```
-Full Undo/Redo support
+- Full Undo/Redo support
 
-Collider hierarchy preservation
+- Collider hierarchy preservation
 ___
 **🚀 Quick Start**  
 Add to your Unity project:  
