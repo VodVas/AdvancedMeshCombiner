@@ -54,23 +54,23 @@ WebGL 2.0+ supports 32-bit indices via UInt32
 
 *(Recommendation: Split chunks for universal compatibility)*
 ___
-**🤖 Collider Optimization Strategies**
+**🌟 Collider Optimization Strategies**
 * Collider Modes:
 * 
 Merged Mode:
-*(Code Example: CreateSharedCollider = true)*
--Best For: Mobile/VR platforms
--Physics Cost: Low (1 collider)
+*(Code Example: CreateSharedCollider = true)* 
+-Best For: Mobile/VR platforms  
+-Physics Cost: Low (1 collider)  
 
 Split Mode:  
-*(Code Example: GenerateGroupedColliders())*
--Best For: PC/Precision scenarios
-Physics Cost: Medium
+*(Code Example: GenerateGroupedColliders())*  
+-Best For: PC/Precision scenarios  
+Physics Cost: Medium  
 
 Original Mode:  
-*(Code Example: PreserveIndividualColliders = true)*
--Best For: Debugging purposes
--Physics Cost: High
+*(Code Example: PreserveIndividualColliders = true)*  
+-Best For: Debugging purposes  
+-Physics Cost: High  
 ___
 **🧠 Smart Memory Management**  
 *Revolutionary Memory Optimization*  
