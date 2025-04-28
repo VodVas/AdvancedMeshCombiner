@@ -29,9 +29,10 @@ private struct TransformVerticesJob : IJobParallelFor
 * 🧠 Smart Memory Management**  
 Feature	Traditional Approach	Our Solution	Improvement
 Collider Cache	1.2MB per collider	32KB shared cache	97% memory reduction
-Vertex Transforms	400MB for 1M verts	64MB Burst buffers	84% less memory  
+Vertex Transforms	400MB for 1M verts	64MB Burst buffers	84% less memory
+
 🏛️ SOLID & Clean Code Architecture  
-This utility exemplifies professional-grade design through:  
+* This utility exemplifies professional-grade design through:  
 
 Strict SOLID Compliance:  
 
